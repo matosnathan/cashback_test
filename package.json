@@ -1,0 +1,32 @@
+{
+  "name": "ms-cashback",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "bcrypt": "^5.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-promise-router": "^4.0.1",
+    "fs": "0.0.1-security",
+    "jsonwebtoken": "^8.5.1",
+    "log4js": "^6.3.0",
+    "path": "^0.12.7",
+    "pg": "^8.5.0",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^6.3.5",
+    "validator": "^13.1.17"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3"
+  },
+  "scripts": {
+    "test": "jest",
+    "start": "nodemon ./bin/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
